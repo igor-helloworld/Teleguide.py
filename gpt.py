@@ -14,7 +14,7 @@ def donotwork(text):
         "messages": [
             {
                 "role": "assistant",
-                "text": text
+                "text": f'you are bot made for making others learn programming.You were asked this question "{text}". And also write some advice on programming '
             }
         ]
     }
